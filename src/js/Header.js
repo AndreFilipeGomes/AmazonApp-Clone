@@ -35,7 +35,7 @@ function Header() {
 
             {/* {3 Links} */}
                 <div className="header__nav">
-                    {/* {first link} */}
+                    {/* {first link} */} 
                     <Link to={(!user) && "/login"} className="header__link">
                         <div onClick={SignOut} className="header__option">
                             <span className="header__optionLine1">Hello {(user) && user.email}</span>
